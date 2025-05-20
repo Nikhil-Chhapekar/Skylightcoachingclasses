@@ -1,0 +1,43 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#f8fafc" />
+  
+  <!-- Person outline -->
+  <g transform="translate(200, 180)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="80" fill="#f1f5f9" stroke="#64748b" stroke-width="2" />
+    
+    <!-- Face features -->
+    <circle cx="-25" cy="-20" r="8" fill="#1e293b" />
+    <circle cx="25" cy="-20" r="8" fill="#1e293b" />
+    <path d="M-20,20 Q0,40 20,20" stroke="#1e293b" stroke-width="3" fill="none" />
+    
+    <!-- Hair -->
+    <path d="M-80,-10 Q-70,-80 0,-80 Q70,-80 80,-10" fill="#334155" />
+    
+    <!-- Glasses -->
+    <circle cx="-25" cy="-20" r="15" fill="none" stroke="#475569" stroke-width="2" />
+    <circle cx="25" cy="-20" r="15" fill="none" stroke="#475569" stroke-width="2" />
+    <line x1="-10" y1="-20" x2="10" y2="-20" stroke="#475569" stroke-width="2" />
+    
+    <!-- Shoulders -->
+    <path d="M-80,80 Q-40,100 0,100 Q40,100 80,80" fill="#3b82f6" />
+  </g>
+  
+  <!-- Name and title -->
+  <g transform="translate(200, 380)">
+    <text x="0" y="0" font-family="Arial" font-size="20" font-weight="bold" fill="#1e40af" text-anchor="middle">Dr. Rajesh Sharma</text>
+    <text x="0" y="30" font-family="Arial" font-size="16" fill="#64748b" text-anchor="middle">Physics Expert</text>
+  </g>
+  
+  <!-- Physics symbols -->
+  <g transform="translate(80, 80)">
+    <circle cx="0" cy="0" r="15" fill="#3b82f6" />
+    <circle cx="40" cy="0" r="10" fill="#3b82f6" />
+    <path d="M0,0 Q20,-20 40,0" stroke="#3b82f6" stroke-width="2" fill="none" />
+  </g>
+  
+  <g transform="translate(300, 100)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="#3b82f6">E = mc²</text>
+  </g>
+</svg>

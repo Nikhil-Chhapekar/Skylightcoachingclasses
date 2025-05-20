@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylight Coaching Classes - About Us</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-poppins">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-lg fixed w-full z-10">
+        <div class="container mx-auto px-6">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-montserrat font-bold text-orange-600">
+                        <span class="text-black">Skylight</span> Coaching
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="index.html" class="nav-link py-2 px-4 rounded-md font-medium">Home</a>
+                    <a href="about.html" class="nav-link active py-2 px-4 rounded-md font-medium">About Us</a>
+                    <a href="courses.html" class="nav-link py-2 px-4 rounded-md font-medium">Courses</a>
+                    <a href="testimonials.html" class="nav-link py-2 px-4 rounded-md font-medium">Testimonials</a>
+                    <a href="contact.html" class="nav-link py-2 px-4 rounded-md font-medium">Contact</a>
+                    <a href="contact.html" class="ml-2 bg-orange-600 hover:bg-orange-700 text-white font-medium py-2 px-4 rounded-md transition duration-300">
+                        Enroll Now
+                    </a>
+                </div>
+
+                <!-- Mobile Navigation Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-orange-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-md">
+            <div class="container mx-auto px-6 py-3">
+                <a href="index.html" class="mobile-nav-link block py-2 px-4 rounded-md font-medium mb-1">Home</a>
+                <a href="about.html" class="mobile-nav-link active block py-2 px-4 rounded-md font-medium mb-1">About Us</a>
+                <a href="courses.html" class="mobile-nav-link block py-2 px-4 rounded-md font-medium mb-1">Courses</a>
+                <a href="testimonials.html" class="mobile-nav-link block py-2 px-4 rounded-md font-medium mb-1">Testimonials</a>
+                <a href="contact.html" class="mobile-nav-link block py-2 px-4 rounded-md font-medium mb-1">Contact</a>
+                <a href="contact.html" class="block bg-orange-600 hover:bg-orange-700 text-white font-medium py-2 px-4 rounded-md transition duration-300 text-center mt-3 mb-2">
+                    Enroll Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="pt-32 pb-12 md:pt-40 md:pb-24 bg-gradient-to-r from-orange-50 to-yellow-100">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold font-montserrat text-black mb-4" data-aos="fade-up">About Skylight Coaching Classes</h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                Discover our journey, mission, and the innovative teaching methodology that has helped thousands of students achieve academic excellence.
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <img src="images/about-story.svg" alt="Our Story" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+                    <h2 class="text-3xl font-bold text-black mb-6">Our Story</h2>
+                    <p class="text-gray-600 mb-4">
+                        Founded in 2010, Skylight Coaching Classes began with a vision to transform education by integrating technology with traditional teaching methods. What started as a small coaching center with just 30 students has now grown into a premier educational institution serving over 1,500 students annually.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        Our journey has been marked by continuous innovation and a commitment to excellence. We pioneered the Augmented AI Learning approach in 2018, revolutionizing how students prepare for competitive exams like MHTCET and NEET.
+                    </p>
+                    <p class="text-gray-600">
+                        Today, we are proud to be one of the leading coaching institutes in the region, with a track record of producing top rankers in MHTCET and NEET examinations year after year.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-black mb-4">Our Mission & Vision</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Guiding principles that drive everything we do at Skylight Coaching Classes.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Mission -->
+                <div class="bg-white rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-orange-600 mb-4">
+                        <i class="fas fa-bullseye text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-4">Our Mission</h3>
+                    <p class="text-gray-600">
+                        To empower students from grades 5-12 with personalized, technology-enhanced education that builds strong foundations and prepares them for academic success and competitive examinations like MHTCET and NEET.
+                    </p>
+                </div>
+
+                <!-- Vision -->
+                <div class="bg-white rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-orange-600 mb-4">
+                        <i class="fas fa-eye text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-4">Our Vision</h3>
+                    <p class="text-gray-600">
+                        To be the most innovative and effective educational institution that transforms the learning experience through Augmented AI technology, creating a new generation of confident, knowledgeable, and successful students.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-black mb-4">Our Proven Teaching Methodology</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">How we combine expert faculty with personalized attention to deliver exceptional educational outcomes.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Approach 1 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-orange-600" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold text-black mb-4">Personalized Learning Paths</h3>
+                    <p class="text-gray-600">
+                        Our expert teachers assess each student's strengths, weaknesses, and learning style to create customized study plans that optimize their learning journey.
+                    </p>
+                </div>
+
+                <!-- Approach 2 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-orange-600" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold text-black mb-4">Adaptive Practice & Assessment</h3>
+                    <p class="text-gray-600">
+                        Students receive carefully curated practice questions that gradually increase in difficulty based on their performance, ensuring they're always challenged at the right level.
+                    </p>
+                </div>
+
+                <!-- Approach 3 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-orange-600" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold text-black mb-4">Expert Human Guidance</h3>
+                    <p class="text-gray-600">
+                        Our experienced faculty members provide personalized attention, motivation, and expert guidance to help students overcome challenges and achieve their academic goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-black mb-4">Meet Our Expert Faculty</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Our team of dedicated educators brings years of experience in preparing students for MHTCET and NEET examinations.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Faculty Member 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/faculty-1.svg" alt="Dr. Rajesh Sharma" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-black mb-1">Dr. Rajesh Sharma</h3>
+                        <p class="text-orange-600 mb-3">Physics Expert</p>
+                        <p class="text-gray-600">15+ years of experience in NEET & MHTCET coaching with a Ph.D. in Physics.</p>
+                    </div>
+                </div>
+
+                <!-- Faculty Member 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/faculty-2.jpg" alt="Mrs. Priya Desai" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-black mb-1">Mrs. Priya Desai</h3>
+                        <p class="text-orange-600 mb-3">Chemistry Specialist</p>
+                        <p class="text-gray-600">Former IITian with 12+ years dedicated to teaching Chemistry for competitive exams.</p>
+                    </div>
+                </div>
+
+                <!-- Faculty Member 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/faculty-3.jpg" alt="Mr. Sunil Patil" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-black mb-1">Mr. Sunil Patil</h3>
+                        <p class="text-orange-600 mb-3">Mathematics Guru</p>
+                        <p class="text-gray-600">Mathematics expert with a track record of producing state toppers in MHTCET.</p>
+                    </div>
+                </div>
+
+                <!-- Faculty Member 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/faculty-4.jpg" alt="Dr. Meera Joshi" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-black mb-1">Dr. Meera Joshi</h3>
+                        <p class="text-orange-600 mb-3">Biology Expert</p>
+                        <p class="text-gray-600">MBBS, MD with specialized knowledge in teaching Biology for NEET aspirants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-black mb-4">Frequently Asked Questions</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Find answers to common questions about our coaching programs and methodology.</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto" data-aos="fade-up">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left">
+                        <span class="text-lg font-semibold text-black">What age groups do you cater to?</span>
+                        <i class="fas fa-chevron-down text-orange-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        We provide educational programs for students from grades 5 to 12, with specialized courses for each grade level. Our foundation courses start from grade 5, while our competitive exam preparation focuses on grades 11 and 12.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left">
+                        <span class="text-lg font-semibold text-black">How does your teaching methodology work?</span>
+                        <i class="fas fa-chevron-down text-orange-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        Our teaching methodology combines traditional classroom instruction with personalized attention. Our expert teachers assess each student's performance, identify knowledge gaps, and create customized study plans. We then provide targeted guidance based on these insights to ensure academic success.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left">
+                        <span class="text-lg font-semibold text-black">What is your success rate for MHTCET and NEET?</span>
+                        <i class="fas fa-chevron-down text-orange-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        We consistently achieve a 95% success rate in MHTCET and 92% in NEET examinations. Over the past five years, our students have secured top 100 ranks in both exams, with several state toppers among them.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left">
+                        <span class="text-lg font-semibold text-black">Do you offer online classes?</span>
+                        <i class="fas fa-chevron-down text-orange-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        Yes, we offer both offline and online classes. Our online platform provides the same high-quality learning experience with live interactive sessions, recorded lectures, and personalized study materials.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left">
+                        <span class="text-lg font-semibold text-black">How can I enroll my child?</span>
+                        <i class="fas fa-chevron-down text-orange-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        You can enroll by visiting our center, calling our admission helpline, or filling out the contact form on our website. We conduct an initial assessment to understand your child's current level and recommend the most suitable program.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Chat Button -->
+    <div class="fixed bottom-6 right-6 z-10">
+        <button id="chat-button" class="bg-orange-600 hover:bg-orange-700 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg transition duration-300">
+            <i class="fas fa-comments text-xl"></i>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-xl font-semibold font-montserrat mb-4">Skylight Coaching</h3>
+                    <p class="text-gray-400">Empowering students with expert coaching for academic excellence since 2010.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-lg font-semibold font-montserrat mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="courses.html" class="text-gray-400 hover:text-white transition duration-300">Courses</a></li>
+                        <li><a href="testimonials.html" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-lg font-semibold font-montserrat mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Education Street, Takalghat, Maharashtra</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@skylightcoaching.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="text-lg font-semibold font-montserrat mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Skylight Coaching Classes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

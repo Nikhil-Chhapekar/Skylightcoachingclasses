@@ -1,0 +1,138 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fff5eb" />
+
+  <!-- Decorative elements -->
+  <circle cx="650" cy="100" r="50" fill="#ffedd5" />
+  <circle cx="720" cy="180" r="30" fill="#fed7aa" />
+  <circle cx="600" cy="220" r="40" fill="#fdba74" />
+
+  <!-- Classroom setting -->
+  <g transform="translate(100, 150)">
+    <!-- Teacher -->
+    <g transform="translate(100, 100)">
+      <!-- Head -->
+      <circle cx="0" cy="0" r="40" fill="#ffb6c1" />
+      <!-- Face -->
+      <circle cx="-15" cy="-10" r="4" fill="#333" />
+      <circle cx="15" cy="-10" r="4" fill="#333" />
+      <path d="M-10 15 Q0 25 10 15" stroke="#333" stroke-width="2" fill="none" />
+
+      <!-- Body -->
+      <rect x="-30" y="40" width="60" height="100" fill="#fb923c" rx="5" />
+
+      <!-- Arms -->
+      <rect x="-60" y="50" width="30" height="12" fill="#ffb6c1" rx="5" />
+      <rect x="30" y="50" width="30" height="12" fill="#ffb6c1" rx="5" />
+
+      <!-- Legs -->
+      <rect x="-25" y="140" width="15" height="60" fill="#4b5563" rx="5" />
+      <rect x="10" y="140" width="15" height="60" fill="#4b5563" rx="5" />
+
+      <!-- Pointer -->
+      <line x1="60" y1="50" x2="120" y2="30" stroke="#333" stroke-width="2" />
+    </g>
+
+    <!-- Blackboard -->
+    <g transform="translate(300, 50)">
+      <rect x="-150" y="-50" width="300" height="150" fill="#1e293b" />
+      <rect x="-145" y="-45" width="290" height="140" fill="#334155" />
+
+      <!-- Math equations -->
+      <text x="-100" y="-10" font-family="Arial" font-size="14" fill="white">E = mc²</text>
+      <text x="0" y="-10" font-family="Arial" font-size="14" fill="white">F = ma</text>
+      <text x="80" y="-10" font-family="Arial" font-size="14" fill="white">a² + b² = c²</text>
+
+      <text x="-100" y="30" font-family="Arial" font-size="14" fill="white">∫ f(x) dx</text>
+      <text x="0" y="30" font-family="Arial" font-size="14" fill="white">d/dx [f(x)]</text>
+      <text x="80" y="30" font-family="Arial" font-size="14" fill="white">Σ(n=1 to ∞)</text>
+    </g>
+
+    <!-- Students -->
+    <g transform="translate(300, 200)">
+      <!-- Student 1 -->
+      <g transform="translate(-100, 0)">
+        <!-- Head -->
+        <circle cx="0" cy="0" r="30" fill="#ffb6c1" />
+        <!-- Face -->
+        <circle cx="-10" cy="-5" r="3" fill="#333" />
+        <circle cx="10" cy="-5" r="3" fill="#333" />
+        <path d="M-5 10 Q0 15 5 10" stroke="#333" stroke-width="2" fill="none" />
+
+        <!-- Body -->
+        <rect x="-20" y="30" width="40" height="70" fill="#fb923c" rx="5" />
+
+        <!-- Arms -->
+        <rect x="-40" y="40" width="20" height="10" fill="#ffb6c1" rx="5" />
+        <rect x="20" y="40" width="20" height="10" fill="#ffb6c1" rx="5" />
+
+        <!-- Legs -->
+        <rect x="-15" y="100" width="10" height="40" fill="#4b5563" rx="5" />
+        <rect x="5" y="100" width="10" height="40" fill="#4b5563" rx="5" />
+      </g>
+
+      <!-- Student 2 -->
+      <g transform="translate(0, 0)">
+        <!-- Head -->
+        <circle cx="0" cy="0" r="30" fill="#a5b4fc" />
+        <!-- Face -->
+        <circle cx="-10" cy="-5" r="3" fill="#333" />
+        <circle cx="10" cy="-5" r="3" fill="#333" />
+        <path d="M-5 10 Q0 15 5 10" stroke="#333" stroke-width="2" fill="none" />
+
+        <!-- Body -->
+        <rect x="-20" y="30" width="40" height="70" fill="#fb923c" rx="5" />
+
+        <!-- Arms -->
+        <rect x="-40" y="40" width="20" height="10" fill="#a5b4fc" rx="5" />
+        <rect x="20" y="40" width="20" height="10" fill="#a5b4fc" rx="5" />
+
+        <!-- Legs -->
+        <rect x="-15" y="100" width="10" height="40" fill="#4b5563" rx="5" />
+        <rect x="5" y="100" width="10" height="40" fill="#4b5563" rx="5" />
+      </g>
+
+      <!-- Student 3 -->
+      <g transform="translate(100, 0)">
+        <!-- Head -->
+        <circle cx="0" cy="0" r="30" fill="#ffb6c1" />
+        <!-- Face -->
+        <circle cx="-10" cy="-5" r="3" fill="#333" />
+        <circle cx="10" cy="-5" r="3" fill="#333" />
+        <path d="M-5 10 Q0 15 5 10" stroke="#333" stroke-width="2" fill="none" />
+
+        <!-- Body -->
+        <rect x="-20" y="30" width="40" height="70" fill="#fb923c" rx="5" />
+
+        <!-- Arms -->
+        <rect x="-40" y="40" width="20" height="10" fill="#ffb6c1" rx="5" />
+        <rect x="20" y="40" width="20" height="10" fill="#ffb6c1" rx="5" />
+
+        <!-- Legs -->
+        <rect x="-15" y="100" width="10" height="40" fill="#4b5563" rx="5" />
+        <rect x="5" y="100" width="10" height="40" fill="#4b5563" rx="5" />
+      </g>
+    </g>
+
+    <!-- Books and study materials -->
+    <g transform="translate(500, 220)">
+      <!-- Stack of books -->
+      <rect x="-40" y="-20" width="80" height="15" fill="#ef4444" rx="2" />
+      <rect x="-35" y="-35" width="70" height="15" fill="#3b82f6" rx="2" />
+      <rect x="-30" y="-50" width="60" height="15" fill="#22c55e" rx="2" />
+      <rect x="-25" y="-65" width="50" height="15" fill="#eab308" rx="2" />
+
+      <!-- Notebook -->
+      <rect x="50" y="-40" width="60" height="70" fill="#f9fafb" stroke="#9ca3af" stroke-width="1" />
+      <line x1="55" y1="-30" x2="105" y2="-30" stroke="#9ca3af" stroke-width="1" />
+      <line x1="55" y1="-20" x2="105" y2="-20" stroke="#9ca3af" stroke-width="1" />
+      <line x1="55" y1="-10" x2="105" y2="-10" stroke="#9ca3af" stroke-width="1" />
+      <line x1="55" y1="0" x2="105" y2="0" stroke="#9ca3af" stroke-width="1" />
+      <line x1="55" y1="10" x2="105" y2="10" stroke="#9ca3af" stroke-width="1" />
+      <line x1="55" y1="20" x2="85" y2="20" stroke="#9ca3af" stroke-width="1" />
+    </g>
+  </g>
+
+  <!-- Text "Expert Coaching" -->
+  <text x="400" y="500" font-family="Arial" font-size="28" font-weight="bold" fill="#fb923c" text-anchor="middle">Expert Coaching for Academic Excellence</text>
+</svg>

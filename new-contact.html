@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylight Coaching Classes - Contact Us</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#fb923c',
+                        'primary-dark': '#ea580c',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="new-index.html" class="text-2xl font-bold text-primary">
+                        <span class="text-black">Skylight</span> Coaching
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="new-index.html" class="nav-link py-2 px-4 rounded-md font-medium">Home</a>
+                    <a href="new-about.html" class="nav-link py-2 px-4 rounded-md font-medium">About Us</a>
+                    <a href="new-courses.html" class="nav-link py-2 px-4 rounded-md font-medium">Courses</a>
+                    <a href="new-testimonials.html" class="nav-link py-2 px-4 rounded-md font-medium">Testimonials</a>
+                    <a href="new-contact.html" class="nav-link active py-2 px-4 rounded-md font-medium">Contact</a>
+                    <a href="new-contact.html" class="ml-2 bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300">
+                        Enroll Now
+                    </a>
+                </div>
+
+                <!-- Mobile Navigation Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3">
+                <a href="new-index.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Home</a>
+                <a href="new-about.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">About Us</a>
+                <a href="new-courses.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Courses</a>
+                <a href="new-testimonials.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Testimonials</a>
+                <a href="new-contact.html" class="block py-2 px-4 rounded-md font-medium mb-1 text-primary bg-orange-50">Contact</a>
+                <a href="new-contact.html" class="block bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300 text-center mt-3 mb-2">
+                    Enroll Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-r from-orange-50 to-yellow-100">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-black mb-4">
+                Contact Us
+            </h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Have questions about our courses or want to enroll? Get in touch with us today.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <h2 class="text-2xl font-bold text-black mb-6">Send Us a Message</h2>
+                    <form id="contact-form">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <select id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required>
+                                <option value="">Select a subject</option>
+                                <option value="admission">Admission Inquiry</option>
+                                <option value="course">Course Information</option>
+                                <option value="fees">Fee Structure</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-primary-dark text-white font-medium py-3 px-6 rounded-md transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h2 class="text-2xl font-bold text-black mb-6">Contact Information</h2>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold text-black mb-4">Our Location</h3>
+                        <div class="flex items-start mb-4">
+                            <div class="text-primary mr-4">
+                                <i class="fas fa-map-marker-alt text-2xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-700">123 Education Street, Takalghat</p>
+                                <p class="text-gray-700">Maharashtra, India - 441122</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-200 rounded-lg overflow-hidden h-64">
+                            <!-- Placeholder for Google Map -->
+                            <div class="w-full h-full flex items-center justify-center bg-gray-300">
+                                <span class="text-gray-600">Google Map will be displayed here</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold text-black mb-4">Contact Details</h3>
+                        <div class="flex items-center mb-4">
+                            <div class="text-primary mr-4">
+                                <i class="fas fa-phone text-2xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-700">+91 98765 43210</p>
+                                <p class="text-gray-700">+91 98765 43211</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center mb-4">
+                            <div class="text-primary mr-4">
+                                <i class="fas fa-envelope text-2xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-700">info@skylightcoaching.com</p>
+                                <p class="text-gray-700">admissions@skylightcoaching.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold text-black mb-4">Office Hours</h3>
+                        <div class="flex items-center mb-4">
+                            <div class="text-primary mr-4">
+                                <i class="fas fa-clock text-2xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-700">Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                                <p class="text-gray-700">Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-black mb-12 text-center">Frequently Asked Questions</h2>
+            
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-semibold text-black">How can I enroll my child in Skylight Coaching Classes?</span>
+                        <i class="fas fa-chevron-down text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md">
+                        <p class="text-gray-600 pt-4">
+                            You can enroll your child by visiting our center during office hours, calling our admission helpline, or filling out the contact form on this page. Our team will guide you through the admission process.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-6">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-semibold text-black">What are the fee structures for different courses?</span>
+                        <i class="fas fa-chevron-down text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md">
+                        <p class="text-gray-600 pt-4">
+                            Our fee structure varies based on the course and grade level. Please contact our admission department for detailed information about fees, payment schedules, and available scholarships.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-6">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-semibold text-black">Do you offer online classes?</span>
+                        <i class="fas fa-chevron-down text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md">
+                        <p class="text-gray-600 pt-4">
+                            Yes, we offer both offline and online classes. Our online platform provides the same high-quality learning experience with live interactive sessions, recorded lectures, and personalized study materials.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-6">
+                    <button class="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md focus:outline-none">
+                        <span class="text-lg font-semibold text-black">How does your teaching methodology work?</span>
+                        <i class="fas fa-chevron-down text-primary"></i>
+                    </button>
+                    <div class="bg-white px-4 pb-4 rounded-b-lg shadow-md">
+                        <p class="text-gray-600 pt-4">
+                            Our teaching methodology combines traditional classroom instruction with personalized attention. Our expert teachers assess each student's performance, identify knowledge gaps, and create customized study plans. We then provide targeted guidance based on these insights to ensure academic success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Skylight Coaching</h3>
+                    <p class="text-gray-400">Empowering students with expert coaching for academic excellence since 2010.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="new-index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="new-about.html" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="new-courses.html" class="text-gray-400 hover:text-white transition duration-300">Courses</a></li>
+                        <li><a href="new-testimonials.html" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                        <li><a href="new-contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Education Street, Takalghat, Maharashtra</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@skylightcoaching.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Skylight Coaching Classes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/new-main.js"></script>
+    <script>
+        // FAQ Accordion
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqButtons = document.querySelectorAll('.faq-section button');
+            
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle content visibility
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

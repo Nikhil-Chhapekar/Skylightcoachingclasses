@@ -1,0 +1,161 @@
+/* Custom CSS for Skylight Coaching Classes Website */
+
+/* Color Theme Variables */
+:root {
+    --primary-color: #fb923c; /* Orange */
+    --primary-dark: #ea580c;
+    --primary-light: #fdba74;
+    --text-color: #000000; /* Black */
+    --text-light: #333333;
+    --background-color: #ffffff; /* White */
+    --accent-color: #f8f8f8;
+}
+
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Styles */
+header {
+    transition: all 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styles */
+.nav-link {
+    color: var(--text-light);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+    background-color: rgba(251, 146, 60, 0.05);
+}
+
+.nav-link.active {
+    color: var(--primary-color);
+    background-color: rgba(251, 146, 60, 0.1);
+}
+
+.mobile-nav-link {
+    color: var(--text-light);
+    transition: all 0.3s ease;
+}
+
+.mobile-nav-link:hover {
+    color: var(--primary-color);
+    background-color: rgba(251, 146, 60, 0.05);
+}
+
+.mobile-nav-link.active {
+    color: var(--primary-color);
+    background-color: rgba(251, 146, 60, 0.1);
+}
+
+/* Mobile Menu Animation */
+#mobile-menu {
+    transition: all 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#mobile-menu.active {
+    max-height: 400px;
+}
+
+/* Button Hover Effects */
+.btn-hover-effect {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-hover-effect:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+
+.btn-hover-effect:hover:after {
+    height: 100%;
+}
+
+/* Card Hover Effects */
+.feature-card {
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Course Card Hover Effect */
+.course-card {
+    transition: all 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Footer Link Hover Effect */
+footer a {
+    transition: all 0.3s ease;
+}
+
+/* Utility Classes */
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow-hover:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--accent-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-dark);
+}

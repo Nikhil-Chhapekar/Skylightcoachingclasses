@@ -1,0 +1,48 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#fff5eb" />
+
+  <!-- Decorative elements -->
+  <circle cx="700" cy="100" r="50" fill="#ffedd5" />
+  <circle cx="650" cy="180" r="30" fill="#fed7aa" />
+
+  <!-- Engineering symbols -->
+  <g transform="translate(300, 100)">
+    <!-- Gear -->
+    <circle cx="100" cy="100" r="60" fill="#fb923c" />
+    <circle cx="100" cy="100" r="45" fill="#fff5eb" />
+    <circle cx="100" cy="100" r="15" fill="#fb923c" />
+
+    <!-- Gear teeth -->
+    <rect x="95" y="30" width="10" height="25" fill="#fb923c" />
+    <rect x="95" y="145" width="10" height="25" fill="#fb923c" />
+    <rect x="30" y="95" width="25" height="10" fill="#fb923c" />
+    <rect x="145" y="95" width="25" height="10" fill="#fb923c" />
+
+    <!-- Diagonal teeth -->
+    <g transform="translate(100, 100) rotate(45)">
+      <rect x="-5" y="-70" width="10" height="25" fill="#fb923c" />
+      <rect x="-5" y="45" width="10" height="25" fill="#fb923c" />
+      <rect x="-70" y="-5" width="25" height="10" fill="#fb923c" />
+      <rect x="45" y="-5" width="25" height="10" fill="#fb923c" />
+    </g>
+
+    <!-- Compass -->
+    <g transform="translate(0, 0)">
+      <circle cx="100" cy="100" r="10" fill="#ea580c" />
+      <line x1="100" y1="100" x2="140" y2="60" stroke="#ea580c" stroke-width="3" />
+      <line x1="100" y1="100" x2="60" y2="140" stroke="#ea580c" stroke-width="3" />
+    </g>
+  </g>
+
+  <!-- Formula -->
+  <g transform="translate(200, 250)">
+    <text x="0" y="0" font-family="Arial" font-size="16" fill="#ea580c">E = mc²</text>
+    <text x="100" y="0" font-family="Arial" font-size="16" fill="#ea580c">F = ma</text>
+    <text x="200" y="0" font-family="Arial" font-size="16" fill="#ea580c">PV = nRT</text>
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="300" font-family="Arial" font-size="24" font-weight="bold" fill="#ea580c" text-anchor="middle">MHTCET Preparation (Grades 11-12)</text>
+  <text x="400" y="330" font-family="Arial" font-size="16" fill="#000000" text-anchor="middle">Comprehensive preparation for engineering entrance examination</text>
+</svg>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylight Coaching Classes - About Us</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#fb923c',
+                        'primary-dark': '#ea580c',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="new-index.html" class="text-2xl font-bold text-primary">
+                        <span class="text-black">Skylight</span> Coaching
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="new-index.html" class="nav-link py-2 px-4 rounded-md font-medium">Home</a>
+                    <a href="new-about.html" class="nav-link active py-2 px-4 rounded-md font-medium">About Us</a>
+                    <a href="new-courses.html" class="nav-link py-2 px-4 rounded-md font-medium">Courses</a>
+                    <a href="new-testimonials.html" class="nav-link py-2 px-4 rounded-md font-medium">Testimonials</a>
+                    <a href="new-contact.html" class="nav-link py-2 px-4 rounded-md font-medium">Contact</a>
+                    <a href="new-contact.html" class="ml-2 bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300">
+                        Enroll Now
+                    </a>
+                </div>
+
+                <!-- Mobile Navigation Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3">
+                <a href="new-index.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Home</a>
+                <a href="new-about.html" class="block py-2 px-4 rounded-md font-medium mb-1 text-primary bg-orange-50">About Us</a>
+                <a href="new-courses.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Courses</a>
+                <a href="new-testimonials.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Testimonials</a>
+                <a href="new-contact.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Contact</a>
+                <a href="new-contact.html" class="block bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300 text-center mt-3 mb-2">
+                    Enroll Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-r from-orange-50 to-yellow-100">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-black mb-4">
+                About Skylight Coaching Classes
+            </h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Discover our journey, mission, and the innovative teaching methodology that has helped thousands of students achieve academic excellence.
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="images/about-story.svg" alt="Our Story" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl font-bold text-black mb-6">Our Story</h2>
+                    <p class="text-gray-600 mb-4">
+                        Founded in 2010, Skylight Coaching Classes began with a vision to transform education by integrating technology with traditional teaching methods. What started as a small coaching center with just 30 students has now grown into a premier educational institution serving over 1,500 students annually.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        Our journey has been marked by continuous innovation and a commitment to excellence. We pioneered our unique teaching methodology in 2018, revolutionizing how students prepare for competitive exams like MHTCET and NEET.
+                    </p>
+                    <p class="text-gray-600">
+                        Today, we are proud to be one of the leading coaching institutes in the region, with a track record of producing top rankers in MHTCET and NEET examinations year after year.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-black mb-4">Our Mission & Vision</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Guiding principles that drive everything we do at Skylight Coaching Classes.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Mission -->
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-bullseye text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-4">Our Mission</h3>
+                    <p class="text-gray-600">
+                        To empower students from grades 5-12 with personalized, expert-guided education that builds strong foundations and prepares them for academic success and competitive examinations like MHTCET and NEET.
+                    </p>
+                </div>
+
+                <!-- Vision -->
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-eye text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-4">Our Vision</h3>
+                    <p class="text-gray-600">
+                        To be the most innovative and effective educational institution that transforms the learning experience through our expert teaching methodology, creating a new generation of confident, knowledgeable, and successful students.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Skylight Coaching</h3>
+                    <p class="text-gray-400">Empowering students with expert coaching for academic excellence since 2010.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="new-index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="new-about.html" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="new-courses.html" class="text-gray-400 hover:text-white transition duration-300">Courses</a></li>
+                        <li><a href="new-testimonials.html" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                        <li><a href="new-contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Education Street, Takalghat, Maharashtra</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@skylightcoaching.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Skylight Coaching Classes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/new-main.js"></script>
+</body>
+</html>

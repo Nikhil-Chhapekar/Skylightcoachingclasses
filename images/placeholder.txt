@@ -1,0 +1,22 @@
+This folder will contain the following images:
+
+1. hero-image.svg - Hero section image
+2. foundation-course.jpg - Foundation course image
+3. mhtcet-course.jpg - MHTCET preparation course image
+4. neet-course.jpg - NEET preparation course image
+5. about-story.jpg - About us story image
+6. faculty-1.jpg - Faculty member 1 image
+7. faculty-2.jpg - Faculty member 2 image
+8. faculty-3.jpg - Faculty member 3 image
+9. faculty-4.jpg - Faculty member 4 image
+10. student-1.jpg - Student testimonial 1 image
+11. student-2.jpg - Student testimonial 2 image
+12. student-3.jpg - Student testimonial 3 image
+13. student-4.jpg - Student testimonial 4 image
+14. student-5.jpg - Student testimonial 5 image
+15. student-6.jpg - Student testimonial 6 image
+16. video-thumb-1.jpg - Video testimonial 1 thumbnail
+17. video-thumb-2.jpg - Video testimonial 2 thumbnail
+18. video-thumb-3.jpg - Video testimonial 3 thumbnail
+
+Please replace these placeholder images with actual images related to Skylight Coaching Classes, focusing on students from grades 5-12 and MHTCET/NEET preparation.

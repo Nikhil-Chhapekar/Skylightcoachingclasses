@@ -1,0 +1,137 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#fff5eb" />
+
+  <!-- Building outline -->
+  <g transform="translate(200, 100)">
+    <!-- Main building -->
+    <rect x="0" y="0" width="400" height="250" fill="#e2e8f0" rx="5" />
+
+    <!-- Roof -->
+    <polygon points="0,0 200,50 400,0" fill="#94a3b8" />
+
+    <!-- Windows -->
+    <g>
+      <!-- Row 1 -->
+      <rect x="50" y="80" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="120" y="80" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="190" y="80" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="260" y="80" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="330" y="80" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+
+      <!-- Row 2 -->
+      <rect x="50" y="150" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="120" y="150" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="190" y="150" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="260" y="150" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+      <rect x="330" y="150" width="40" height="40" fill="#fed7aa" stroke="#ea580c" stroke-width="2" />
+    </g>
+
+    <!-- Door -->
+    <rect x="170" y="180" width="60" height="70" fill="#ea580c" rx="5" />
+    <rect x="195" y="215" width="10" height="5" fill="#fcd34d" />
+
+    <!-- Sign -->
+    <rect x="120" y="30" width="160" height="30" fill="#fb923c" rx="5" />
+    <text x="200" y="50" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">SKYLIGHT COACHING</text>
+  </g>
+
+  <!-- People -->
+  <g transform="translate(250, 350)">
+    <!-- Person 1 -->
+    <g transform="translate(0, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb7185" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb7185" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb7185" stroke-width="3" />
+    </g>
+
+    <!-- Person 2 -->
+    <g transform="translate(30, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb923c" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb923c" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb923c" stroke-width="3" />
+    </g>
+
+    <!-- Person 3 -->
+    <g transform="translate(60, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb7185" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb7185" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb7185" stroke-width="3" />
+    </g>
+
+    <!-- Person 4 -->
+    <g transform="translate(90, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb923c" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb923c" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb923c" stroke-width="3" />
+    </g>
+
+    <!-- Person 5 -->
+    <g transform="translate(120, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb7185" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb7185" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb7185" stroke-width="3" />
+    </g>
+
+    <!-- Person 6 -->
+    <g transform="translate(150, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb923c" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb923c" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb923c" stroke-width="3" />
+    </g>
+
+    <!-- Person 7 -->
+    <g transform="translate(180, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb7185" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb7185" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb7185" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb7185" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb7185" stroke-width="3" />
+    </g>
+
+    <!-- Person 8 -->
+    <g transform="translate(210, 0)">
+      <circle cx="0" cy="0" r="10" fill="#fb923c" />
+      <rect x="-5" y="10" width="10" height="20" fill="#fb923c" />
+      <line x1="-5" y1="15" x2="-10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="15" x2="10" y2="25" stroke="#fb923c" stroke-width="3" />
+      <line x1="-5" y1="30" x2="-5" y2="40" stroke="#fb923c" stroke-width="3" />
+      <line x1="5" y1="30" x2="5" y2="40" stroke="#fb923c" stroke-width="3" />
+    </g>
+  </g>
+
+  <!-- Sun -->
+  <g transform="translate(650, 100)">
+    <circle cx="0" cy="0" r="40" fill="#fcd34d" />
+    <line x1="0" y1="-50" x2="0" y2="-70" stroke="#fcd34d" stroke-width="5" />
+    <line x1="0" y1="50" x2="0" y2="70" stroke="#fcd34d" stroke-width="5" />
+    <line x1="-50" y1="0" x2="-70" y2="0" stroke="#fcd34d" stroke-width="5" />
+    <line x1="50" y1="0" x2="70" y2="0" stroke="#fcd34d" stroke-width="5" />
+    <line x1="-35" y1="-35" x2="-50" y2="-50" stroke="#fcd34d" stroke-width="5" />
+    <line x1="35" y1="-35" x2="50" y2="-50" stroke="#fcd34d" stroke-width="5" />
+    <line x1="-35" y1="35" x2="-50" y2="50" stroke="#fcd34d" stroke-width="5" />
+    <line x1="35" y1="35" x2="50" y2="50" stroke="#fcd34d" stroke-width="5" />
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" fill="#ea580c" text-anchor="middle">Our Journey Since 2010</text>
+</svg>

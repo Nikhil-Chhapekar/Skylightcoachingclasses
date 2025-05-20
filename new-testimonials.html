@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylight Coaching Classes - Testimonials</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#fb923c',
+                        'primary-dark': '#ea580c',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="new-index.html" class="text-2xl font-bold text-primary">
+                        <span class="text-black">Skylight</span> Coaching
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="new-index.html" class="nav-link py-2 px-4 rounded-md font-medium">Home</a>
+                    <a href="new-about.html" class="nav-link py-2 px-4 rounded-md font-medium">About Us</a>
+                    <a href="new-courses.html" class="nav-link py-2 px-4 rounded-md font-medium">Courses</a>
+                    <a href="new-testimonials.html" class="nav-link active py-2 px-4 rounded-md font-medium">Testimonials</a>
+                    <a href="new-contact.html" class="nav-link py-2 px-4 rounded-md font-medium">Contact</a>
+                    <a href="new-contact.html" class="ml-2 bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300">
+                        Enroll Now
+                    </a>
+                </div>
+
+                <!-- Mobile Navigation Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3">
+                <a href="new-index.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Home</a>
+                <a href="new-about.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">About Us</a>
+                <a href="new-courses.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Courses</a>
+                <a href="new-testimonials.html" class="block py-2 px-4 rounded-md font-medium mb-1 text-primary bg-orange-50">Testimonials</a>
+                <a href="new-contact.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Contact</a>
+                <a href="new-contact.html" class="block bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300 text-center mt-3 mb-2">
+                    Enroll Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-r from-orange-50 to-yellow-100">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-black mb-4">
+                Student Testimonials
+            </h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Hear what our students and parents have to say about their experience with Skylight Coaching Classes.
+            </p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="fas fa-quote-left text-3xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Skylight Coaching Classes completely transformed my approach to learning. The personalized attention and expert guidance helped me secure a top 100 rank in MHTCET. I'm forever grateful to all my teachers."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Student" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-black">Rahul Sharma</h4>
+                            <p class="text-gray-500 text-sm">MHTCET Rank 76 | 2023 Batch</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="fas fa-quote-left text-3xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "The faculty at Skylight Coaching is exceptional. They not only focus on academic excellence but also on building confidence. My daughter secured admission to a top medical college thanks to their NEET preparation program."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Parent" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-black">Priya Desai</h4>
+                            <p class="text-gray-500 text-sm">Parent of NEET Qualifier | 2023 Batch</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="fas fa-quote-left text-3xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "I joined Skylight's foundation course in 8th grade, and it built such a strong base that competitive exams became much easier. The teaching methodology is unique and effective. Highly recommended!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/66.jpg" alt="Student" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-black">Anjali Patil</h4>
+                            <p class="text-gray-500 text-sm">MHTCET Rank 120 | 2022 Batch</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="fas fa-quote-left text-3xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "The regular mock tests and detailed analysis of my performance helped me identify my weak areas and improve systematically. The faculty is always available for doubt clearing, even after class hours."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Student" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-black">Vikram Singh</h4>
+                            <p class="text-gray-500 text-sm">NEET Qualifier | 2023 Batch</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="fas fa-quote-left text-3xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "As a parent, I was impressed by the regular updates and parent-teacher meetings. The progress reports were detailed and helped us understand our son's development. The results speak for themselves!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Parent" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-black">Rajesh Mehta</h4>
+                            <p class="text-gray-500 text-sm">Parent of MHTCET Qualifier | 2022 Batch</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="fas fa-quote-left text-3xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "The study material provided by Skylight Coaching is comprehensive and well-structured. The practice questions are carefully selected to cover all types of problems that appear in competitive exams."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Student" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-black">Neha Joshi</h4>
+                            <p class="text-gray-500 text-sm">NEET Qualifier | 2022 Batch</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Testimonials -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-black mb-12 text-center">Video Testimonials</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="relative">
+                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video Thumbnail" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button class="bg-primary hover:bg-primary-dark text-white rounded-full w-16 h-16 flex items-center justify-center transition duration-300">
+                                <i class="fas fa-play text-xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-black mb-2">Rahul's Journey to MHTCET Success</h3>
+                        <p class="text-gray-600">Hear how Rahul overcame challenges to secure a top rank in MHTCET with Skylight Coaching.</p>
+                    </div>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="relative">
+                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video Thumbnail" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button class="bg-primary hover:bg-primary-dark text-white rounded-full w-16 h-16 flex items-center justify-center transition duration-300">
+                                <i class="fas fa-play text-xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-black mb-2">Priya's NEET Success Story</h3>
+                        <p class="text-gray-600">Priya shares her experience of preparing for NEET with Skylight Coaching Classes.</p>
+                    </div>
+                </div>
+                
+                <!-- Video 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="relative">
+                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video Thumbnail" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button class="bg-primary hover:bg-primary-dark text-white rounded-full w-16 h-16 flex items-center justify-center transition duration-300">
+                                <i class="fas fa-play text-xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-black mb-2">Parents Speak: The Skylight Difference</h3>
+                        <p class="text-gray-600">Parents share their perspective on how Skylight Coaching helped their children excel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Skylight Coaching</h3>
+                    <p class="text-gray-400">Empowering students with expert coaching for academic excellence since 2010.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="new-index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="new-about.html" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="new-courses.html" class="text-gray-400 hover:text-white transition duration-300">Courses</a></li>
+                        <li><a href="new-testimonials.html" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                        <li><a href="new-contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Education Street, Takalghat, Maharashtra</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@skylightcoaching.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Skylight Coaching Classes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/new-main.js"></script>
+</body>
+</html>

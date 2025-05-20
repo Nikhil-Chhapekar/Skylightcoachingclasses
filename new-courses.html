@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylight Coaching Classes - Courses</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#fb923c',
+                        'primary-dark': '#ea580c',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/new-style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="new-index.html" class="text-2xl font-bold text-primary">
+                        <span class="text-black">Skylight</span> Coaching
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="new-index.html" class="nav-link py-2 px-4 rounded-md font-medium">Home</a>
+                    <a href="new-about.html" class="nav-link py-2 px-4 rounded-md font-medium">About Us</a>
+                    <a href="new-courses.html" class="nav-link active py-2 px-4 rounded-md font-medium">Courses</a>
+                    <a href="new-testimonials.html" class="nav-link py-2 px-4 rounded-md font-medium">Testimonials</a>
+                    <a href="new-contact.html" class="nav-link py-2 px-4 rounded-md font-medium">Contact</a>
+                    <a href="new-contact.html" class="ml-2 bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300">
+                        Enroll Now
+                    </a>
+                </div>
+
+                <!-- Mobile Navigation Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3">
+                <a href="new-index.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Home</a>
+                <a href="new-about.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">About Us</a>
+                <a href="new-courses.html" class="block py-2 px-4 rounded-md font-medium mb-1 text-primary bg-orange-50">Courses</a>
+                <a href="new-testimonials.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Testimonials</a>
+                <a href="new-contact.html" class="block py-2 px-4 rounded-md font-medium mb-1 hover:bg-orange-50 hover:text-primary">Contact</a>
+                <a href="new-contact.html" class="block bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded-md transition duration-300 text-center mt-3 mb-2">
+                    Enroll Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-r from-orange-50 to-yellow-100">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-black mb-4">
+                Our Courses
+            </h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Comprehensive programs designed for students from grades 5-12, with special focus on MHTCET and NEET preparation.
+            </p>
+        </div>
+    </section>
+
+    <!-- Course Categories -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button class="bg-primary text-white px-6 py-2 rounded-full font-medium">All Courses</button>
+                <button class="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300">Foundation (Grades 5-8)</button>
+                <button class="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300">MHTCET Preparation</button>
+                <button class="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300">NEET Preparation</button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/foundation-course.svg" alt="Foundation Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">Grades 5-8</span>
+                            <span class="text-gray-600 font-medium">₹15,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">Foundation Course - Grade 5</h3>
+                        <p class="text-gray-600 mb-4">Building strong academic foundations with focus on Mathematics, Science, and English.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/foundation-course.svg" alt="Foundation Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">Grades 5-8</span>
+                            <span class="text-gray-600 font-medium">₹16,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">Foundation Course - Grade 6</h3>
+                        <p class="text-gray-600 mb-4">Strengthening core concepts in Mathematics, Science, and English with advanced problem-solving.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/foundation-course.svg" alt="Foundation Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">Grades 5-8</span>
+                            <span class="text-gray-600 font-medium">₹17,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">Foundation Course - Grade 7</h3>
+                        <p class="text-gray-600 mb-4">Developing analytical thinking with advanced Mathematics and Science concepts.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/foundation-course.svg" alt="Foundation Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">Grades 5-8</span>
+                            <span class="text-gray-600 font-medium">₹18,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">Foundation Course - Grade 8</h3>
+                        <p class="text-gray-600 mb-4">Preparing for higher education with advanced concepts and introduction to competitive exam patterns.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 5 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/mhtcet-course.svg" alt="MHTCET Preparation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">MHTCET</span>
+                            <span class="text-gray-600 font-medium">₹25,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">MHTCET - Grade 11</h3>
+                        <p class="text-gray-600 mb-4">First year of comprehensive MHTCET preparation covering Physics, Chemistry, and Mathematics.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 6 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/mhtcet-course.svg" alt="MHTCET Preparation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">MHTCET</span>
+                            <span class="text-gray-600 font-medium">₹28,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">MHTCET - Grade 12</h3>
+                        <p class="text-gray-600 mb-4">Final year intensive preparation with mock tests, problem-solving sessions, and exam strategies.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 7 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/neet-course.svg" alt="NEET Preparation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">NEET</span>
+                            <span class="text-gray-600 font-medium">₹30,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">NEET - Grade 11</h3>
+                        <p class="text-gray-600 mb-4">First year of NEET preparation covering Physics, Chemistry, and Biology fundamentals.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 8 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/neet-course.svg" alt="NEET Preparation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">NEET</span>
+                            <span class="text-gray-600 font-medium">₹35,000/year</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">NEET - Grade 12</h3>
+                        <p class="text-gray-600 mb-4">Intensive NEET preparation with specialized focus on Biology, regular mock tests, and exam strategies.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <!-- Course 9 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden course-card">
+                    <img src="images/neet-course.svg" alt="NEET Crash Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-orange-100 text-primary px-3 py-1 rounded-full text-sm font-medium">NEET</span>
+                            <span class="text-gray-600 font-medium">₹20,000/3 months</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-black mb-2">NEET Crash Course</h3>
+                        <p class="text-gray-600 mb-4">3-month intensive program for last-minute preparation with daily mock tests and doubt clearing sessions.</p>
+                        <a href="#" class="text-primary hover:text-primary-dark font-medium">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Skylight Coaching</h3>
+                    <p class="text-gray-400">Empowering students with expert coaching for academic excellence since 2010.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="new-index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="new-about.html" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="new-courses.html" class="text-gray-400 hover:text-white transition duration-300">Courses</a></li>
+                        <li><a href="new-testimonials.html" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                        <li><a href="new-contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Education Street, Takalghat, Maharashtra</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@skylightcoaching.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Skylight Coaching Classes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/new-main.js"></script>
+</body>
+</html>
